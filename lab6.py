@@ -12,7 +12,7 @@ def orders_update(ids):
     order_details = []
     for id in required_ids:
         data = {
-            "X-API-Key": "qvl5wWb8hhc4JYWOnaUwnCNSanEmVYsBMgv8vbssHG5LFfmHIlglkvU6GR01lnbG06HfElVFcuGigY4HqbkJvN",
+            "X-API-Key": "",
             "orderID": id
         }
         url = f"https://api.ataix.kz/api/orders/{id}"
